@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ba2e7af4-299a-4b7d-bd6d-f75aebcf1f3e</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Sample</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\AccountsModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\TasksModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SoapUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AccountsViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TasksViewModel.cs" />
+  </ItemGroup>
+</Project>
